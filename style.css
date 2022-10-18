@@ -20,6 +20,7 @@ body {
 nav {
     padding: 15px;
     outline: #BFB7BA solid 2px;
+    background-color: ;
 }
 
 ul {
@@ -109,7 +110,8 @@ article.article-card {
 }
 
 .iner-article-card {
-    margin: 30px;
-    outline: black solid 2px;
+    margin: 35px;
+    outline: gray solid 2px;
     background: white;
+    border-radius: 2%;
 }
