@@ -45,9 +45,10 @@ p.main-text {
     max-width: 95%;
 }
 
-.article-paragraph {
+.product-paragraph {
     font-size: 30px;
     padding: 30px;
+    text-overflow: ellipsis;
 }
 
 #banner-img {
@@ -80,41 +81,41 @@ div#main-container {
     margin: 40px;
 }
 
-#articles {
+#products {
     display: flex;
     flex-direction: row;
     column-gap: 24px;
 }
 
-article.article-card {
+product.product-card {
     flex-basis: fit-content;
 }
 
-.article-card {
+.product-card {
     flex-wrap: wrap;
 }
 
-.article-card button {
+.product-card button {
     margin: 0 auto;
     text-align: center;
 }
 
-.article-img {
+.product-img {
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
 }
 
-.article-btn-container {
+.product-btn-container {
     display: flex;
     padding: 15px;
 }
 
-.article-btn {
+.product-btn {
     align-items: center;
 }
 
-.iner-article-card {
+.iner-product-card {
     margin: 35px;
     outline: gray solid 3px;
     background: white;
