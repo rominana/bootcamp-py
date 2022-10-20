@@ -6,21 +6,23 @@
 }
 
 body {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
 .banner {
-    width: 80%;
-    height: 15vh;
+    width: 98%;
+    height: 25vh;
     margin: 0 auto;
     padding: 10px;
+    margin: 15px;
 }
 
 nav {
     padding: 15px;
     outline: #BFB7BA solid 2px;
-    background-color: ;
+    margin: 24px;
+
 }
 
 ul {
@@ -34,17 +36,17 @@ li {
     align-items: flex-end;
     text-align: center;
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
+    text-overflow: ellipsis;
 }
 
 p.main-text {
-    font-size: 20px;
+    font-size: 30px;
+    max-width: 95%;
 }
 
 .article-paragraph {
-    /* font-size: 20px;
-    padding: 5px; */
-    font-size: 18px;
+    font-size: 30px;
     padding: 30px;
 }
 
@@ -53,10 +55,15 @@ p.main-text {
     width: 100%;
 }
 
+h1.main-title {
+    font-size: 30px;
+}
+
 #main-section {
     display: flex;
     padding: 5px;
     outline: #BFB7BA solid 2px;
+    margin: 24px;
 }
 
 div#main-container {
@@ -68,15 +75,15 @@ div#main-container {
 }
 
 .main-img {
-    height: 115px;
-    width: 115px;
-    padding: 10px;
+    height: 150px;
+    width: 150px;
+    margin: 40px;
 }
 
 #articles {
     display: flex;
     flex-direction: row;
-    flex-basis: auto;
+    column-gap: 24px;
 }
 
 article.article-card {
@@ -84,9 +91,7 @@ article.article-card {
 }
 
 .article-card {
-    outline: #BFB7BA solid 2px;
     flex-wrap: wrap;
-    background: #d3d3d3;
 }
 
 .article-card button {
@@ -111,7 +116,7 @@ article.article-card {
 
 .iner-article-card {
     margin: 35px;
-    outline: gray solid 2px;
+    outline: gray solid 3px;
     background: white;
     border-radius: 2%;
 }
